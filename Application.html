@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EU | Computer Science Application</title>
+	<link rel="stylesheet" href="styleIndex.css">
+</head>
+<body id="general_background">
+	<header>
+		<ul>
+			<li style="font-weight: bold;"><a href="Index.html">Back to main page</a></li>
+			<li><a href="Faculty.html">Faculty/Staff</a></li>
+			<li><a href="Courses.html">Courses</a></li>
+			<li><a href="Application.html">Application/Admission</a></li>
+			<li><a href="About.html">About Us</a></li>
+		</ul>
+	</header>
+	<main>
+		<h2>Application/Admission</h2>
+		<form>
+			<ul>
+				<li><label for="first-name">First Name:&emsp;&ensp;</label>
+				<input type="text" id="first-name" name="first-name" required></li>
+
+				<li><label for="last-name">Last Name:&emsp;&ensp;</label>
+				<input type="text" id="last-name" name="last-name" required></li>
+
+				<li><label for="email">Email Address:</label>
+				<input type="email" id="email" name="email" required></li>
+				
+				<li><label for="address">Address:</label>
+					<br>&emsp;&emsp;&emsp;&emsp;<input type="text" id="address-number" name="address-number" placeholder="address-number">
+					<br>&emsp;&emsp;&emsp;&emsp;<input type="text" id="address-city" name="address-city" placeholder="City">
+					<br>&emsp;&emsp;&emsp;&emsp;<input type="text" id="address-state" name="address-state" placeholder="State">
+					<br>&emsp;&emsp;&emsp;&emsp;<input type="text" id="address-zipcode" name="address-zipcode" placeholder="Zipcode">
+					<br>&emsp;&emsp;&emsp;&emsp;<input type="text" id="address" name="address" placeholder="Full Address">
+				</li>
+				<li><label for="interest-area">Interest Area:</label></li>
+			</ul>
+			<select id="interest-area" name="interest-area">
+				<option value="web-development">Web Development</option>
+				<option value="software-development">Software Development</option>
+				<option value="game-development">Game Development</option>
+				<option value="networking">Networking</option>
+				<option value="database-management">Database Management</option>
+				<option value="artificial-intelligence">Artificial intelligence</option>
+				<option value="networking">Networking</option>
+			</select>
+			
+			<button type="submit">Submit</button>
+		</form>
+	</main>
+</body>
+</html>
